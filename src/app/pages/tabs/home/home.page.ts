@@ -14,15 +14,7 @@ import { Router } from '@angular/router';
 })
 export class HomePage implements OnInit {
   fields = [
-    {
-      id:1,
-      name: 'Canchas de Futbol Don oscar',
-      address: 'Av. La Florida 4520',
-      phone: '+569 1234 5678',
-      image: 'https://www.granvalparaiso.cl/wp-content/uploads/2014/09/canchas.jpg',
-      price: 15000,
-      rating: 4.5
-    },
+    
     {
       id:2,
       name: 'Canchas de Futbol Don Pepe',

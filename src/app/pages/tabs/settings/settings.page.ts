@@ -13,7 +13,7 @@ import { IonicModule, ToastController } from '@ionic/angular';
 export class SettingsPage implements OnInit {
   firstname!: string;
   lastname!: string;
-  email!: string;
+  password!: string;
 
   constructor(private toastController: ToastController) { }
 

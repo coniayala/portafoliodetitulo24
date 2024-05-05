@@ -16,6 +16,7 @@ export class FormularioreservaPage implements OnInit {
 
   canchaS:any;
   fecha:any;
+  hora:any;
 
   constructor(private router: Router, private activedRouter: ActivatedRoute, private alertController: AlertController) { }
 
@@ -32,6 +33,7 @@ export class FormularioreservaPage implements OnInit {
     //aqui se deberia enviar a BD para registrar y antes verificar que la fecha no este ocupada
   }
   return(){
+    this.router.navigate(['/main']);
 
   }
 
