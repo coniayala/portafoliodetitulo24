@@ -17,8 +17,14 @@
         <ion-label>Cancha: {{ canchaS.name }}</ion-label>        
       </ion-item>
       <ion-item>
-        <ion-label position="floating">Fecha de Reserva</ion-label>
-        <ion-input type="date" [(ngModel)]="fecha"></ion-input>
+        
+        <ion-datetime-button datetime="datetime"></ion-datetime-button>
+
+<ion-modal [keepContentsMounted]="true">
+  <ng-template>
+    <ion-datetime id="datetime"></ion-datetime>
+  </ng-template>
+</ion-modal>
       </ion-item>
       
     </div>
